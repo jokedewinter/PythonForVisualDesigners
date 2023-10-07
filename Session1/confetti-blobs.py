@@ -26,6 +26,12 @@ for frame in range(totalFrames):
         # Calculate position of shape
         x = randint(0, width())
         y = randint(0, height())
+        
+#        # To fill the left bottom corner you can set the 
+#        # shape position to be outside the canvas
+#        # This will fill the whole frame if you up the range of blobs to 2000
+#        x = randint(-shapeWidth, width())
+#        y = randint(-shapeHeight, height())
     
         # Pick a colour
         # Add opacity to make them seethrough
