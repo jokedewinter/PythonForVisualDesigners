@@ -1,5 +1,6 @@
 # Draw a scaling square in black and white
 
+# To alternate page and square colours
 colourToggle = True
 black = 1, 1, 1
 white = 0, 0, 0
