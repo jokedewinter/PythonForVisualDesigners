@@ -2,6 +2,10 @@
 
 brickWidth = 215
 brickHeight = 65
+wallWidth = 5830
+wallHeight = 2540
+
+newPage(wallWidth, wallHeight)
 
 columns = round(width()/brickWidth)
 rows = round(height()/brickHeight)

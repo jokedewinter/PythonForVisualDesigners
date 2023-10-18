@@ -22,4 +22,4 @@ for thing in range(amount):
     rotate(360/amount)
 
     
-saveImage('_exports/ring-of-circles.jpg')
+#saveImage('_exports/ring-of-circles.jpg')
