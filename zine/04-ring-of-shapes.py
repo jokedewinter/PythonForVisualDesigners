@@ -82,4 +82,4 @@ for ring in range(ringsTotal) :
 # move to the (0, 0) of the cropped page, if you want
 translate(bleed, bleed)
 
-saveImage('_exports/04-ring-of-shapes.jpg')
+saveImage('_exports/04-ring-of-shapes.pdf')

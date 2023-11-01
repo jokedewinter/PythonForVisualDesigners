@@ -6,7 +6,7 @@ bleed = 0.125 * inch
 
 # do i want to see the bleed?
 # NOTE! make this false before exporting
-drawBleed = True
+drawBleed = False
 
 # calculate the total width and height
 totalWidth = cropWidth+bleed*2
@@ -77,4 +77,4 @@ with savedState():
 # move to the (0, 0) of the cropped page, if you want
 translate(bleed, bleed)
 
-saveImage('_exports/02-red-and-blue.jpg')
+saveImage('_exports/02-red-and-blue.pdf')

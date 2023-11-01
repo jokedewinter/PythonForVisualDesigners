@@ -43,7 +43,7 @@ with savedState():
 
     # Set up the page colour
     fill(.11, .11, .11)
-    rect(0, 0, W, H)
+    rect(0, 0, width(), height())
 
     # Read the word file
     with open(wordPath, encoding='utf-8') as wordFile:
@@ -75,4 +75,4 @@ with savedState():
 # move to the (0, 0) of the cropped page, if you want
 translate(bleed, bleed)
 
-saveImage('_exports/05-words.jpg')
+saveImage('_exports/05-words.pdf')
