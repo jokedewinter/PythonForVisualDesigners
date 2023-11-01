@@ -19,7 +19,7 @@ for step in range(1000):
     # Draw the shape
     oval(x, y, shapeWidth, shapeHeight)
 
-saveImage('_exports/confetti-circles.png')
+#saveImage('_exports/confetti-circles.png')
 
 # Squares
 newPage()
@@ -32,7 +32,7 @@ for step in range(1000):
     fill(random(), random(), random())
     rect(x, y, shapeWidth, shapeHeight)
 
-saveImage('_exports/confetti-squares.png')
+#saveImage('_exports/confetti-squares.png')
 
 # Circles and squares
 newPage()
@@ -49,7 +49,7 @@ for step in range(500):
     y = randint(0, height())
     rect(x, y, shapeWidth, shapeHeight)
 
-saveImage('_exports/confetti-mix.png')
+#saveImage('_exports/confetti-mix.png')
 
 
 # Circles with different sizes
@@ -71,4 +71,4 @@ for step in range(500):
     # Draw the shape
     oval(x, y, shapeWidth, shapeHeight)
 
-saveImage('_exports/confetti-sizes.png')
+#saveImage('_exports/confetti-sizes.png')
